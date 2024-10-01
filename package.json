@@ -4,12 +4,17 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --open",
-    "buld":"parcel build index.html --out-dir=build"
+    "buld": "parcel build index.html --out-dir=build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "first": "^0.0.3",
+    "l": "^0.6.0",
+    "leaflet": "^1.9.4"
   }
 }
